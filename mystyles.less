@@ -1,0 +1,17 @@
+@import (reference) "./mixins.less";
+
+@myvar: pink;
+
+.stuff {
+  color: pink;
+  // color: purple;
+  .someMixin(yellow, 16px;);
+}
+
+.someClass {
+  color: pink;
+}
+
+.notAllowed {
+  color: @myvar;
+}

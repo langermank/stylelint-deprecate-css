@@ -1,0 +1,11 @@
+
+
+{
+    "plugins": [
+       "./index.js"
+   ],
+    "rules": {
+        "declaration-block-no-duplicate-properties": true,
+        "plugin/stylelint-deprecate-css": ["someClass", "notAllowed", ".someMixin()", "color", "myvar"]
+    }
+}
