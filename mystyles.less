@@ -3,8 +3,6 @@
 @myvar: pink;
 
 .stuff {
-  color: pink;
-  // color: purple;
   .someMixin(yellow, 16px;);
 }
 
@@ -14,4 +12,16 @@
 
 .notAllowed {
   color: @myvar;
+}
+
+.allowed {
+  color: yellow;
+}
+
+.anything {
+  color: pink;
+}
+
+.things {
+  .someMixin();
 }
