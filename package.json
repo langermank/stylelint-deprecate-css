@@ -5,9 +5,18 @@
   "repository": "https://github.com/langermank/stylelint-deprecate-css.git",
   "author": "Katie Langerman <langermank@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test:plugin": "stylelint-tape",
+    "test": "jest"
+  },
   "dependencies": {
+    "jest-preset-stylelint": "^3.0.0",
     "less": "^4.0.0",
     "stylelint": "^13.8.0",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-tape": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
